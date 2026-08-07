@@ -7,7 +7,7 @@ yarn add -D tailwindcss @tailwindcss/vite vite sharp
 <div align="center">
 
   <!-- Logo -->
-  <img src="assets/logo.svg" alt="ChronoPulse Logo" width="128" height="128" />
+  <img src="assets/icon.svg" alt="ChronoPulse Logo" width="128" height="128" />
 
   <h1>ChronoPulse</h1>
 
