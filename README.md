@@ -20,7 +20,7 @@ yarn add -D tailwindcss @tailwindcss/vite vite sharp
     <a href="https://github.com/facebook/react"><img src="https://img.shields.io/badge/React-18/19-61DAFB?logo=react&logoColor=black" alt="React" /></a>
     <a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/Tailwind_CSS-v4.0-38BDF8?logo=tailwindcss&logoColor=white" alt="Tailwind CSS v4" /></a>
     <a href="https://wxt.dev"><img src="https://img.shields.io/badge/WXT-Framework-6366F1" alt="WXT Framework" /></a>
-    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" /></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-AGPL_3.0-green.svg" alt="License" /></a>
   </p>
 
 </div>
