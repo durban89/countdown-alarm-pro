@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- 背景圆角矩形渐变 (Tailwind Slate/Indigo) -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- 倒计时进度条动态渐变 (Tailwind Cyan -> Cyan -> Violet) -->
+    <linearGradient id="ring-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+
+    <!-- 核心火花/提示高亮 (Tailwind Pink/Rose) -->
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#fb7185" />
+    </linearGradient>
+
+    <!-- 发光发亮滤镜 -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- 图标背景：App 容器圆角（符合 Chrome Extension 规范） -->
+  <rect width="512" height="512" rx="112" fill="url(#bg-grad)" />
+
+  <!-- 内部发光底晕 -->
+  <circle cx="256" cy="256" r="160" fill="none" stroke="url(#ring-grad)" stroke-width="24" opacity="0.15" />
+
+  <!-- 倒计时环形轨迹 (剩余 75% 进度圈，象征倒计时状态) -->
+  <circle 
+    cx="256" 
+    cy="256" 
+    r="160" 
+    fill="none" 
+    stroke="url(#ring-grad)" 
+    stroke-width="32" 
+    stroke-linecap="round" 
+    stroke-dasharray="1005" 
+    stroke-dashoffset="250"
+    transform="rotate(-90 256 256)"
+    filter="url(#glow)"
+  />
+
+  <!-- 中心沙漏/倒计时指针几何叠加体 -->
+  <g transform="translate(256, 256)">
+    <!-- 12 点钟位置的高亮闪烁点（提醒状态） -->
+    <circle cx="0" cy="-160" r="16" fill="url(#accent-grad)" filter="url(#glow)" />
+
+    <!-- 时钟分针 (指向倒计时节点) -->
+    <path 
+      d="M 0 0 L 0 -100" 
+      stroke="#ffffff" 
+      stroke-width="20" 
+      stroke-linecap="round" 
+    />
+
+    <!-- 时钟时针 -->
+    <path 
+      d="M 0 0 L 55 55" 
+      stroke="#ffffff" 
+      stroke-width="20" 
+      stroke-linecap="round" 
+      opacity="0.9"
+    />
+
+    <!-- 中心轴圆点 -->
+    <circle cx="0" cy="0" r="28" fill="#ffffff" />
+    <circle cx="0" cy="0" r="14" fill="#0f172a" />
+  </g>
+</svg>
