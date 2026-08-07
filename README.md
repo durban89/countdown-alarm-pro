@@ -1,9 +1,3 @@
-# ChronoPulse
-
-```
-yarn add -D tailwindcss @tailwindcss/vite vite sharp
-```
-
 <div align="center">
 
   <!-- Logo -->
