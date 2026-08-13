@@ -1,6 +1,6 @@
 {
-  "name": "countdown-alarm",
-  "description": "countdown-alarm",
+  "name": "PulseTimer",
+  "description": "A sleek, minimalist countdown timer designed for high-focus deep work, quick pomodoros, and daily reminders directly in your browser.",
   "private": true,
   "version": "1.0.0",
   "type": "module",

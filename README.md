@@ -1,12 +1,12 @@
 <div align="center">
 
   <!-- Logo -->
-  <img src="assets/icon.svg" alt="ChronoPulse Logo" width="128" height="128" />
+  <img src="assets/icon.svg" alt="PulseTimer Logo" width="128" height="128" />
 
-  <h1>ChronoPulse</h1>
+  <h1>PulseTimer</h1>
 
   <p>
-    <b>A modern, high-performance Chrome countdown timer extension built with Tailwind CSS v4, WXT, and React.</b>
+    <b>A sleek, minimalist countdown timer & alarm Chrome extension built with Tailwind CSS v4, WXT, and React.</b>
   </p>
 
   <!-- Badges -->
@@ -23,34 +23,38 @@
 
 ## 📖 Introduction
 
-**ChronoPulse** is a lightweight and aesthetically pleasing Chrome extension designed for developers, creators, and productivity enthusiasts. Built on a modern Web Extensions stack, it delivers instant startup times, zero lag, and a slick glassmorphic UI. Whether you're managing Pomodoro focus sessions, tracking meeting durations, or setting quick reminders, ChronoPulse keeps your time in check.
+**PulseTimer** is a lightweight, distraction-free countdown & alarm extension designed for developers, creators, and focus seekers. Built on a next-gen Web Extensions stack, it delivers instant startup, zero lag, and a high-contrast Slate-950 + Emerald dark-mode aesthetic. 
 
-## ✨ Features
+Whether you are powering through deep-work Pomodoro sessions, timing meeting breaks, or setting precise daily reminders, PulseTimer keeps your workflow in sync directly from your browser.
 
-- ⏱️ **Precision Countdown & Alarms**: Instant presets or custom second-accurate timers.
-- 🎨 **Tailwind CSS v4 Driven UI**: Modern dark-mode aesthetics with vibrant gradients and smooth visuals.
-- 🔔 **System Notifications**: Crisp audio cues and native desktop alerts when timers complete.
-- ⚡ **WXT Architecture**: Next-gen Web Extension framework ensuring minimal memory footprint and lightning-fast popups.
-- 📱 **Adaptive Design**: Responsive UI that scales seamlessly across extension popups and dedicated options pages.
+## ✨ Key Features
+
+- ⚡ **Instant Setup**: Set hours, minutes, and seconds in milliseconds with effortless input controls.
+- 🕒 **Background Sync & Reliability**: Powered by Chrome Alarms API, ensuring your timer stays rock-solid accurate even when the popup is closed.
+- 🎨 **Tailwind CSS v4 Cyber Design**: Dark-mode primary interface tailored with vibrant Emerald glow effects and smooth transitions.
+- 🔔 **Multi-Channel Alerts**: Rich visual countdown completion pages, Web Audio API chime sounds, and native desktop notification popups.
+- 🚀 **WXT Next-Gen Architecture**: Minimal memory footprint and lightning-fast popup rendering.
+- 🖥️ **Offscreen & Standalone Support**: Seamlessly transitions between quick popup view, dedicated standalone windows, and alert tabs.
 
 ## 🛠️ Tech Stack
 
 * **UI Framework**: [React](https://react.dev/)
 * **Styling Engine**: [Tailwind CSS v4](https://tailwindcss.com/)
 * **Extension Framework**: [WXT (Web Extension Tools)](https://wxt.dev/)
-* **Iconography**: Custom Scalable Vector Graphics (SVG)
+* **Background Engine**: Chrome Extension Alarms API & Storage API
+* **Audio Engine**: Web Audio API (Oscillator Node)
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
 Ensure you have the following installed locally:
-- Node.js >= 18.0.0
-- pnpm / npm / yarn
+- **Node.js**: `>= 18.0.0`
+- **Package Manager**: `pnpm` (recommended), `npm`, or `yarn`
 
-### Local Development
+### Installation & Local Development
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/your-username/chronopulse.git](https://github.com/your-username/chronopulse.git)
-   cd chronopulse
+   git clone [https://github.com/your-username/pulsetimer.git](https://github.com/your-username/pulsetimer.git)
+   cd pulsetimer

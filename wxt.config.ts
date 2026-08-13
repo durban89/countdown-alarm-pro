@@ -19,17 +19,13 @@ export default defineConfig({
     },
   }),
   manifest: {
-    name: 'ChronoPulse – Modern Countdown & Alarm Timer',
+    name: 'PulseTimer - Sleek Focus & Alarm',
     version: '1.0.0',
-    description: 'A modern, lightning-fast countdown timer and alarm extension. Stay focused with custom timers, sleek UI, and smart notifications.',
+    description: 'A sleek, minimalist countdown timer designed for high-focus deep work, quick pomodoros, and daily reminders directly in your browser.',
     permissions: [
       'alarms',          // 👈 核心：允许使用 chrome.alarms
       'storage',         // 存储状态
       'notifications'   // 发送系统通知（可选）
-    ],
-    host_permissions: [
-      '*://openai.com/*',
-      '*://openrouter.ai/*'
     ],
     icons: {
       "16": "icon/icon-16.png",
