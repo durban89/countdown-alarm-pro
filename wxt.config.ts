@@ -20,7 +20,7 @@ export default defineConfig({
   }),
   manifest: {
     name: 'PulseTimer - Sleek Focus & Alarm',
-    version: '1.0.0',
+    version: '1.0.1',
     description: "A sleek, minimalist countdown timer & alarm for deep work, quick pomodoros, and daily browser reminders.",
     permissions: [
       'alarms',          // 👈 核心：允许使用 chrome.alarms
