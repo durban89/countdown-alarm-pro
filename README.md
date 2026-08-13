@@ -56,5 +56,5 @@ Ensure you have the following installed locally:
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/your-username/pulsetimer.git](https://github.com/your-username/pulsetimer.git)
-   cd pulsetimer
+   git clone https://github.com/durban89/countdown-alarm-pro.git
+   cd countdown-alarm-pro
