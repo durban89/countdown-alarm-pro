@@ -1,8 +1,8 @@
 {
   "name": "PulseTimer",
-  "description": "A sleek, minimalist countdown timer designed for high-focus deep work, quick pomodoros, and daily reminders directly in your browser.",
+  "description": "A sleek, distraction-free countdown timer & alarm for deep work, focus sessions, and daily reminders.",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.2",
   "type": "module",
   "scripts": {
     "dev": "wxt --host 0.0.0.0",
