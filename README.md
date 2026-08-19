@@ -1,5 +1,8 @@
-<div align="center">
+ <div align="center">
+  <img src="assets/Desktop.png" alt="PulseTimer" width="800" />
+</div>
 
+<div align="center">
   <img src="assets/icon.svg" alt="PulseTimer Logo" width="128" height="128" />
 
   <h1>PulseTimer</h1>
@@ -54,7 +57,7 @@ Built with a modern Web Extensions stack, PulseTimer combines a minimal interfac
 
 PulseTimer can be used for:
 
-* 🍅 Pomodoro and focused work sessions
+* 🎯 Focused work sessions
 * ☕ Short breaks
 * 💻 Development tasks
 * 🧑‍💻 Coding sessions
@@ -87,8 +90,8 @@ Make sure you have the following installed:
 Clone the repository:
 
 ```bash
-git clone https://github.com/durban89/countdown-alarm-pro.git
-cd countdown-alarm-pro
+git clone https://github.com/durban89/pulse-timer-pro.git
+cd pulse-timer-pro
 ```
 
 Install dependencies:
@@ -121,21 +124,12 @@ pnpm build
 ```text
 .
 ├── assets
-│   ├── Desktop.png
-│   ├── icon.svg
-│   └── react.svg
 ├── entrypoints
-│   ├── alarm
-│   ├── background.ts
-│   └── popup
 ├── LICENSE
 ├── package.json
 ├── public
-│   ├── icon
-│   └── wxt.svg
 ├── README.md
 ├── scripts
-│   └── generate-icons.js
 ├── tsconfig.json
 ├── wxt.config.ts
 └── yarn.lock
