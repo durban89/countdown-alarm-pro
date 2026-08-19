@@ -7,9 +7,13 @@
     <b>A sleek, minimalist countdown timer & alarm Chrome extension for focus, productivity, and everyday tasks.</b>
   </p>
 
+  <p></p>
+
   <div align="center">
     <img src="assets/Desktop.png" alt="PulseTimer" width="800" />
   </div>
+
+  <p></p>
 
   <p>
     <a href="https://github.com/facebook/react"><img src="https://img.shields.io/badge/React-18%2F19-61DAFB?logo=react&logoColor=black" alt="React" /></a>
