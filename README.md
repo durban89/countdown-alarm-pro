@@ -143,7 +143,10 @@ PulseTimer is designed with a privacy-first approach.
 
 Timer settings and application data are processed locally within the browser. The extension does not require an account or a remote backend for its core functionality.
 
-PulseTimer does not intentionally collect or sell personal data.
+PulseTimer operates locally in your browser.
+
+No account is required, and no personal data is collected,
+transmitted, or shared.
 
 For more information, see the project's privacy policy.
 
